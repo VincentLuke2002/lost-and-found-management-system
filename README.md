@@ -12,7 +12,7 @@ A web-based Lost and Found management system built with PHP, MySQL, and Tailwind
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-CDN-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![XAMPP](https://img.shields.io/badge/XAMPP-Compatible-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-111827?style=for-the-badge)
+
 
 <br>
 
@@ -372,7 +372,8 @@ Add your screenshots inside a `/screenshots` folder and update the paths below.
 **Dashboard**
 
 ```text
-screenshots/dashboard.png
+<img width="1638" height="872" alt="image" src="https://github.com/user-attachments/assets/dfd28ad7-3bf0-429b-ab9f-aabfdefe6668" />
+
 ```
 
 </td>
@@ -381,7 +382,8 @@ screenshots/dashboard.png
 **Item Management**
 
 ```text
-screenshots/items.png
+<img width="1653" height="602" alt="image" src="https://github.com/user-attachments/assets/abea1e9c-d142-42e1-ac4f-d192d5bb03fc" />
+
 ```
 
 </td>
@@ -392,7 +394,8 @@ screenshots/items.png
 **Claims Management**
 
 ```text
-screenshots/claims.png
+<img width="1654" height="554" alt="image" src="https://github.com/user-attachments/assets/34e321e2-090e-40f3-aaa4-71f9c732d211" />
+
 ```
 
 </td>
@@ -401,7 +404,8 @@ screenshots/claims.png
 **Reports**
 
 ```text
-screenshots/reports.png
+<img width="1661" height="601" alt="image" src="https://github.com/user-attachments/assets/853667a8-dbb3-4059-a101-db738e4a6361" />
+
 ```
 
 </td>
