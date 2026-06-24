@@ -372,7 +372,7 @@ Add your screenshots inside a `/screenshots` folder and update the paths below.
 **Dashboard**
 
 ```text
-<img width="1638" height="872" alt="image" src="https://github.com/user-attachments/assets/dfd28ad7-3bf0-429b-ab9f-aabfdefe6668" />
+https://github.com/user-attachments/assets/dfd28ad7-3bf0-429b-ab9f-aabfdefe6668
 
 ```
 
@@ -382,7 +382,7 @@ Add your screenshots inside a `/screenshots` folder and update the paths below.
 **Item Management**
 
 ```text
-<img width="1653" height="602" alt="image" src="https://github.com/user-attachments/assets/abea1e9c-d142-42e1-ac4f-d192d5bb03fc" />
+https://github.com/user-attachments/assets/abea1e9c-d142-42e1-ac4f-d192d5bb03fc
 
 ```
 
@@ -394,7 +394,7 @@ Add your screenshots inside a `/screenshots` folder and update the paths below.
 **Claims Management**
 
 ```text
-<img width="1654" height="554" alt="image" src="https://github.com/user-attachments/assets/34e321e2-090e-40f3-aaa4-71f9c732d211" />
+https://github.com/user-attachments/assets/34e321e2-090e-40f3-aaa4-71f9c732d211
 
 ```
 
@@ -404,7 +404,7 @@ Add your screenshots inside a `/screenshots` folder and update the paths below.
 **Reports**
 
 ```text
-<img width="1661" height="601" alt="image" src="https://github.com/user-attachments/assets/853667a8-dbb3-4059-a101-db738e4a6361" />
+https://github.com/user-attachments/assets/853667a8-dbb3-4059-a101-db738e4a6361
 
 ```
 
