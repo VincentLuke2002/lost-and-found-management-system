@@ -444,7 +444,8 @@ git push origin feature/your-feature
 ---
 
 ## Author
-Vincent Luke Elpedez
+**Vincent Luke Elpedez**
+
 Built with PHP, MySQL, and Tailwind CSS.  
 Designed for educational and organizational use.
 
