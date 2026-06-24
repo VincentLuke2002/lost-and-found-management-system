@@ -371,7 +371,8 @@ All reports support **CSV export**, Excel-compatible UTF-8 BOM formatting, and *
 
 <br><br>
 
-<img src="https://github.com/user-attachments/assets/3fc24bf2-60b3-4d07-a11d-af657972e997" alt="Dashboard Screenshot" width="100%">
+<img src="https://github.com/user-attachments/assets/f6de2905-2767-4bcb-9fa6-1cfc2b7c4a9e7" alt="Dashboard Screenshot" width="100%">
+
 
 </td>
 <td width="50%" valign="top">
