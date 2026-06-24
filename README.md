@@ -371,7 +371,7 @@ All reports support **CSV export**, Excel-compatible UTF-8 BOM formatting, and *
 
 <br><br>
 
-<img src="PASTE_DASHBOARD_IMAGE_LINK_HERE" alt="Dashboard Screenshot" width="100%">
+<img src="https://github.com/user-attachments/assets/3fc24bf2-60b3-4d07-a11d-af657972e997" alt="Dashboard Screenshot" width="100%">
 
 </td>
 <td width="50%" valign="top">
@@ -380,7 +380,8 @@ All reports support **CSV export**, Excel-compatible UTF-8 BOM formatting, and *
 
 <br><br>
 
-<img src="https://github.com/user-attachments/assets/abea1e9c-d142-42e1-ac4f-d192d5bb03fc" alt="Item Management Screenshot" width="100%">
+<img src="https://github.com/user-attachments/assets/f137437b-9b56-4cc3-b48d-bd1c943c0e08" alt="Item Management Screenshot" width="100%">
+
 
 </td>
 </tr>
@@ -392,7 +393,8 @@ All reports support **CSV export**, Excel-compatible UTF-8 BOM formatting, and *
 
 <br><br>
 
-<img src="https://github.com/user-attachments/assets/34e321e2-090e-40f3-aaa4-71f9c732d211" alt="Claims Management Screenshot" width="100%">
+<img src="https://github.com/user-attachments/assets/7586904f-d2e7-49b0-8c7e-df1fe68df1cb" alt="Claims Management Screenshot" width="100%">
+
 
 </td>
 <td width="50%" valign="top">
@@ -401,7 +403,8 @@ All reports support **CSV export**, Excel-compatible UTF-8 BOM formatting, and *
 
 <br><br>
 
-<img src="https://github.com/user-attachments/assets/853667a8-dbb3-4059-a101-db738e4a6361" alt="Reports Screenshot" width="100%">
+<img src="https://github.com/user-attachments/assets/e0370154-6783-42cb-b90f-d517ac10fe3a" alt="Reports Screenshot" width="100%">
+
 
 </td>
 </tr>
@@ -435,12 +438,12 @@ git push origin feature/your-feature
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 ---
 
 ## Author
-
+Vincent Luke Elpedez
 Built with PHP, MySQL, and Tailwind CSS.  
 Designed for educational and organizational use.
 
