@@ -1,23 +1,28 @@
-# LostFound — Lost and Found Inventory Management System
+<div align="center">
+
+# LostFound
+
+### Lost and Found Inventory Management System
 
 A web-based Lost and Found management system built with PHP, MySQL, and Tailwind CSS. Designed for schools, universities, offices, and organizations to efficiently record, track, match, and return lost and found items.
 
----
+<br>
 
-## Table of Contents
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-CDN-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![XAMPP](https://img.shields.io/badge/XAMPP-Compatible-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-111827?style=for-the-badge)
 
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [System Requirements](#system-requirements)
-- [Installation](#installation)
-- [Default Credentials](#default-credentials)
-- [File Structure](#file-structure)
-- [User Roles](#user-roles)
-- [Screenshots](#screenshots)
-- [Database Schema](#database-schema)
-- [Security](#security)
-- [License](#license)
+<br>
+
+**Modern SaaS-style dashboard for managing lost items, found items, claims, reports, matching, notifications, and user roles.**
+
+<br>
+
+[Overview](#overview) · [Features](#features) · [Installation](#installation) · [File Structure](#file-structure) · [Security](#security)
+
+</div>
 
 ---
 
@@ -25,11 +30,18 @@ A web-based Lost and Found management system built with PHP, MySQL, and Tailwind
 
 LostFound is a full-stack inventory management system that streamlines the process of handling lost and found items. It provides a structured workflow from item reporting, through automated matching, to claim submission and admin approval — all through a clean, modern dashboard interface.
 
+The system is designed for local deployment using XAMPP, Apache, PHP, and MySQL, making it practical for schools, offices, universities, and organizations that need a reliable internal lost and found tracking solution.
+
 ---
 
 ## Features
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 ### Core Modules
+
 - **Dashboard** — Real-time statistics, recent activity feed, and quick action buttons
 - **Lost Items** — Report, track, and manage lost item records with photo uploads
 - **Found Items** — Record found items with storage location tracking
@@ -41,15 +53,20 @@ LostFound is a full-stack inventory management system that streamlines the proce
 - **Locations** — Manage campus/facility locations with building and floor details
 - **User Management** — Admin panel for managing user accounts and roles
 
-### Authentication
+</td>
+<td width="50%" valign="top">
+
+### Authentication and Access
+
 - Secure login and registration
-- Role-based access control (Admin / Staff / User)
+- Role-based access control for Admin, Staff, and User accounts
 - CSRF protection on all forms
 - Password hashing with BCrypt
-- Session management with secure cookie settings
+- Secure session management
 - Forgot password with token-based reset flow
 
-### UI/UX
+### UI and Experience
+
 - Modern SaaS-style dashboard design
 - Full dark mode with localStorage persistence
 - Responsive layout for desktop and tablet
@@ -59,6 +76,10 @@ LostFound is a full-stack inventory management system that streamlines the proce
 - Modal forms for quick CRUD operations
 - Print-friendly report pages
 
+</td>
+</tr>
+</table>
+
 ---
 
 ## Tech Stack
@@ -67,19 +88,23 @@ LostFound is a full-stack inventory management system that streamlines the proce
 |---|---|
 | Backend | PHP 8.2 |
 | Database | MySQL 8.0 |
-| Frontend | HTML5, Tailwind CSS (CDN), Vanilla JavaScript |
-| Server | Apache (XAMPP) |
-| Icons | Heroicons (inline SVG) |
-| Fonts | Inter (Google Fonts) |
+| Frontend | HTML5, Tailwind CSS CDN, Vanilla JavaScript |
+| Server | Apache through XAMPP |
+| Icons | Heroicons inline SVG |
+| Fonts | Inter through Google Fonts |
 
 ---
 
 ## System Requirements
 
-- XAMPP 8.x or any Apache + PHP 8.0+ stack
-- MySQL 5.7+ or MariaDB 10.4+
-- PHP Extensions: `pdo_mysql`, `fileinfo`, `mbstring`
-- Web browser with JavaScript enabled
+| Requirement | Version / Notes |
+|---|---|
+| XAMPP | 8.x recommended |
+| PHP | 8.0 or higher |
+| MySQL | 5.7+ or MariaDB 10.4+ |
+| Apache | Included with XAMPP |
+| PHP Extensions | `pdo_mysql`, `fileinfo`, `mbstring` |
+| Browser | JavaScript enabled |
 
 ---
 
@@ -95,17 +120,17 @@ Or download and extract the ZIP file.
 
 ### 2. Move to XAMPP
 
-Copy the `lostfound` folder into your XAMPP htdocs directory:
+Copy the `lostfound` folder into your XAMPP `htdocs` directory:
 
-```
+```text
 C:/xampp/htdocs/lostfound/
 ```
 
 ### 3. Create Upload Directories
 
-Create these folders manually — they are excluded from the repository:
+Create these folders manually. They are excluded from the repository:
 
-```
+```text
 C:/xampp/htdocs/lostfound/uploads/lost_items/
 C:/xampp/htdocs/lostfound/uploads/found_items/
 C:/xampp/htdocs/lostfound/uploads/claims/
@@ -113,11 +138,11 @@ C:/xampp/htdocs/lostfound/uploads/claims/
 
 ### 4. Import the Database
 
-1. Start **Apache** and **MySQL** in the XAMPP Control Panel
-2. Open `http://localhost/phpmyadmin`
-3. Create a new database named `lostfound_db`
-4. Click **Import** and select `database/schema.sql`
-5. Click **Go**
+1. Start **Apache** and **MySQL** in the XAMPP Control Panel.
+2. Open `http://localhost/phpmyadmin`.
+3. Create a new database named `lostfound_db`.
+4. Click **Import** and select `database/schema.sql`.
+5. Click **Go**.
 
 ### 5. Configure Database Connection
 
@@ -149,11 +174,11 @@ SET password_hash = '$2y$12$YOUR_BCRYPT_HASH_HERE'
 WHERE email = 'admin@lostfound.local';
 ```
 
-Or simply log in with the default credentials below and change the password via User Management.
+Or log in with the default credentials below and change the password through User Management.
 
 ### 8. Access the Application
 
-```
+```text
 http://localhost/lostfound/
 ```
 
@@ -161,21 +186,21 @@ http://localhost/lostfound/
 
 ## Default Credentials
 
-> **Change these immediately after first login.**
+> **Important:** Change these credentials immediately after first login.
 
 | Role | Email | Password |
 |---|---|---|
 | Administrator | `admin@lostfound.local` | `password` |
 
-To create additional staff or user accounts, register via `/modules/auth/register.php` or use the Admin → Users panel.
+To create additional staff or user accounts, register through `/modules/auth/register.php` or use the **Admin > Users** panel.
 
 ---
 
 ## File Structure
 
-```
+```text
 lostfound/
-├── index.php                        # Entry point (redirects to login or dashboard)
+├── index.php                        # Entry point: redirects to login or dashboard
 ├── .htaccess                        # Apache security rules
 │
 ├── config/
@@ -187,13 +212,13 @@ lostfound/
 │
 ├── includes/
 │   ├── auth.php                     # Session management, CSRF, role checks, logging
-│   ├── helpers.php                  # Utility functions (e(), statusBadge(), paginate(), etc.)
+│   ├── helpers.php                  # Utility functions: e(), statusBadge(), paginate(), etc.
 │   └── upload.php                   # Secure file upload handler
 │
 ├── layouts/
 │   ├── header.php                   # HTML head, dark mode init, flash messages
 │   ├── sidebar.php                  # Navigation sidebar and top bar
-│   └── footer.php                   # Closing HTML tags, JS include
+│   └── footer.php                   # Closing HTML tags and JavaScript include
 │
 ├── assets/
 │   ├── css/app.css                  # Custom styles and data-table utility classes
@@ -218,25 +243,25 @@ lostfound/
 │   │   │   └── delete.php           # Delete with photo cleanup
 │   │   └── found/
 │   │       ├── index.php
-│   │       ├── create.php           # Record found item (staff/admin)
+│   │       ├── create.php           # Record found item for staff/admin
 │   │       ├── view.php             # Item detail with claims list
 │   │       ├── edit.php
 │   │       └── delete.php
 │   │
 │   ├── claims/
-│   │   ├── index.php                # Claims list (filtered by role)
+│   │   ├── index.php                # Claims list filtered by role
 │   │   ├── create.php               # Submit ownership claim
 │   │   ├── view.php                 # Claim detail
-│   │   └── review.php               # Approve or reject claim (staff/admin)
+│   │   └── review.php               # Approve or reject claim for staff/admin
 │   │
 │   ├── matching/
 │   │   └── index.php                # Matching engine runner and results
 │   │
 │   ├── categories/
-│   │   └── index.php                # CRUD with modal forms (admin only)
+│   │   └── index.php                # CRUD with modal forms for admin only
 │   │
 │   ├── locations/
-│   │   └── index.php                # CRUD with modal forms (admin only)
+│   │   └── index.php                # CRUD with modal forms for admin only
 │   │
 │   ├── reports/
 │   │   ├── index.php                # Reports dashboard with 5 tabs
@@ -264,7 +289,7 @@ lostfound/
 | Role | Access Level |
 |---|---|
 | **Admin** | Full access — manage users, categories, locations, approve claims, view all reports |
-| **Staff** | Record found items, update item status, review and approve/reject claims |
+| **Staff** | Record found items, update item status, review and approve or reject claims |
 | **User** | Report lost items, view found items, submit claims, track own claim status |
 
 ---
@@ -276,11 +301,11 @@ The system uses 10 database tables:
 | Table | Purpose |
 |---|---|
 | `users` | User accounts with role assignments |
-| `roles` | Role definitions (admin, staff, user) |
+| `roles` | Role definitions: admin, staff, user |
 | `lost_items` | Lost item records with owner info and status |
 | `found_items` | Found item records with storage location |
-| `categories` | Item categories (Electronics, Wallets, Keys, etc.) |
-| `locations` | Campus/facility locations |
+| `categories` | Item categories such as Electronics, Wallets, Keys, and more |
+| `locations` | Campus or facility locations |
 | `claims` | Ownership claims with proof and evidence |
 | `item_matches` | Auto-generated and confirmed matches between lost and found items |
 | `notifications` | In-app notification records per user |
@@ -293,12 +318,12 @@ The system uses 10 database tables:
 The matching engine scores lost items against found items across five criteria:
 
 | Criteria | Points |
-|---|---|
+|---|---:|
 | Same category | 30 |
 | Same location | 20 |
 | Found date is after lost date | 10 |
-| Item name word overlap | up to 25 |
-| Description keyword overlap | up to 15 |
+| Item name word overlap | Up to 25 |
+| Description keyword overlap | Up to 15 |
 
 Items scoring **40 or above** are surfaced as suggested matches. Staff can confirm or dismiss each suggestion. Confirmed matches update the lost item status to `matched` and notify the original reporter.
 
@@ -308,37 +333,105 @@ Items scoring **40 or above** are surfaced as suggested matches. Staff can confi
 
 Five report types are available under the Reports module:
 
-- **Lost Items** — All lost item records filtered by date range
-- **Found Items** — All found item records filtered by date range
-- **Claims** — All claim submissions filtered by date range
-- **By Category** — Item distribution breakdown per category with percentage bars
-- **Monthly Summary** — 6-month comparison of lost vs found counts with visual bars
+| Report Type | Description |
+|---|---|
+| **Lost Items** | All lost item records filtered by date range |
+| **Found Items** | All found item records filtered by date range |
+| **Claims** | All claim submissions filtered by date range |
+| **By Category** | Item distribution breakdown per category with percentage bars |
+| **Monthly Summary** | 6-month comparison of lost vs found counts with visual bars |
 
-All reports support **CSV export** (Excel-compatible with UTF-8 BOM) and **browser print** with sidebar automatically hidden.
+All reports support **CSV export**, Excel-compatible UTF-8 BOM formatting, and **browser print** with the sidebar automatically hidden.
 
 ---
 
 ## Security
 
-- All database queries use **PDO prepared statements** — no raw SQL concatenation
-- Passwords hashed with **BCrypt** (`PASSWORD_BCRYPT`, cost factor 12)
-- **CSRF tokens** on every POST form
-- **XSS prevention** via `htmlspecialchars()` wrapper `e()` on all output
-- File uploads validated by **MIME type** (finfo), extension whitelist, and size limit (5MB)
-- PHP execution blocked in the `uploads/` directory via `.htaccess`
-- Direct access to `config/`, `includes/`, and `database/` blocked via `.htaccess`
-- Session cookies set with `httponly`, `samesite=Strict`
-- Role checks enforced server-side on every protected page
+| Security Area | Implementation |
+|---|---|
+| Database Access | All database queries use PDO prepared statements |
+| Passwords | Hashed with BCrypt using `PASSWORD_BCRYPT` and cost factor 12 |
+| Form Protection | CSRF tokens on every POST form |
+| Output Safety | XSS prevention through `htmlspecialchars()` wrapper `e()` |
+| Upload Security | MIME type validation, extension whitelist, and 5MB size limit |
+| Upload Hardening | PHP execution blocked in the `uploads/` directory through `.htaccess` |
+| Directory Protection | Direct access to `config/`, `includes/`, and `database/` blocked through `.htaccess` |
+| Sessions | Cookies use `httponly` and `samesite=Strict` |
+| Authorization | Role checks enforced server-side on every protected page |
+
+---
+
+## Screenshots
+
+Add your screenshots inside a `/screenshots` folder and update the paths below.
+
+<table>
+<tr>
+<td width="50%">
+
+**Dashboard**
+
+```text
+screenshots/dashboard.png
+```
+
+</td>
+<td width="50%">
+
+**Item Management**
+
+```text
+screenshots/items.png
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Claims Management**
+
+```text
+screenshots/claims.png
+```
+
+</td>
+<td width="50%">
+
+**Reports**
+
+```text
+screenshots/reports.png
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add your feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
+1. Fork the repository.
+2. Create a feature branch:
+
+```bash
+git checkout -b feature/your-feature
+```
+
+3. Commit your changes:
+
+```bash
+git commit -m "Add your feature"
+```
+
+4. Push to the branch:
+
+```bash
+git push origin feature/your-feature
+```
+
+5. Open a Pull Request.
 
 ---
 
@@ -352,3 +445,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Built with PHP, MySQL, and Tailwind CSS.  
 Designed for educational and organizational use.
+
+<div align="center">
+
+<br>
+
+**LostFound — A professional inventory workflow for returning lost items to their rightful owners.**
+
+</div>
