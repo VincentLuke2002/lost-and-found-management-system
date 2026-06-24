@@ -363,55 +363,49 @@ All reports support **CSV export**, Excel-compatible UTF-8 BOM formatting, and *
 
 ## Screenshots
 
-Add your screenshots inside a `/screenshots` folder and update the paths below.
-
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-**Dashboard**
+<strong>Dashboard</strong>
 
-```text
-https://github.com/user-attachments/assets/dfd28ad7-3bf0-429b-ab9f-aabfdefe6668
+<br><br>
 
-```
+<img src="PASTE_DASHBOARD_IMAGE_LINK_HERE" alt="Dashboard Screenshot" width="100%">
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-**Item Management**
+<strong>Item Management</strong>
 
-```text
-https://github.com/user-attachments/assets/abea1e9c-d142-42e1-ac4f-d192d5bb03fc
+<br><br>
 
-```
+<img src="https://github.com/user-attachments/assets/abea1e9c-d142-42e1-ac4f-d192d5bb03fc" alt="Item Management Screenshot" width="100%">
 
 </td>
 </tr>
+
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-**Claims Management**
+<strong>Claims Management</strong>
 
-```text
-https://github.com/user-attachments/assets/34e321e2-090e-40f3-aaa4-71f9c732d211
+<br><br>
 
-```
+<img src="https://github.com/user-attachments/assets/34e321e2-090e-40f3-aaa4-71f9c732d211" alt="Claims Management Screenshot" width="100%">
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-**Reports**
+<strong>Reports</strong>
 
-```text
-https://github.com/user-attachments/assets/853667a8-dbb3-4059-a101-db738e4a6361
+<br><br>
 
-```
+<img src="https://github.com/user-attachments/assets/853667a8-dbb3-4059-a101-db738e4a6361" alt="Reports Screenshot" width="100%">
 
 </td>
 </tr>
 </table>
-
 ---
 
 ## Contributing
